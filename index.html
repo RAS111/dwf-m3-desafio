@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio HTML-CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="header-nav">
+                <div class="logo"><img class="logo-img" src="images/logo.png" alt="logo"></div>
+                <div class="menu">      
+                    <div class="menu-items"></div>
+                    <div class="menu-items"></div>
+                    <div class="menu-items"></div>  
+                </div>
+                <div class="menu-desktop">      
+                    <div class="menu-desktop-items">conoceme</div>
+                    <div class="menu-desktop-items">servicios</div>
+                    <div class="menu-desktop-items">contáctame</div>  
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="welcome">
+            <h1 class="welcome-text">Bienvenidos a mi site</h1>
+            <img class="welcome-img" src="images/foto.jpg" alt="foto">
+        </section>
+        <section class="about-me">
+            <div class="about-me-container">
+                <h2 class="about-me-subtitle">Conóceme</h2>
+                <p class="about-me-paragraph">Mi nombre es Rodrigo Salinas soy Desarrollador de Software Trainee y Actualmente me estoy formando como Desarrollador Web Full-Stack </p>
+            </div>
+            <img class="about-me-img" src="images/check.png" alt="">
+        </section>
+        <section class="services section">
+            <h2 class="services-title">Mis Servicios</h2>
+            <div class="service-container">
+                <div class="services things">
+                    <img class="services-img" src="images/desktop.png" alt="desktop">
+                    <h3 class="things-subtitle">Y más cosas</h2>
+                    <p class="things-paragraph">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
+                </div>
+                <div class="services and-more-things">
+                    <img class="services-img" src="images/desktop.png" alt="desktop">
+                    <h3 class="things-subtitle">Y tambien otras cosas</h2>
+                    <p class="things-paragraph">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
+                </div>
+                <div class="services and-also-more-things">
+                    <img class="services-img" src="images/desktop.png" alt="desktop">
+                    <h3 class="things-subtitle">Hago Cosas</h2>
+                    <p class="things-paragraph">Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales vehicula velit. Aenean lobortis posuere tristique.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact-me">
+            <h2 class="contact-me title">Contáctame</h2>
+            <div class="contact-me form">
+                <div class="fieldset">
+                    <label for="name" class="label">nombre</label>
+                    <input id="name" type="text" class="input">
+                </div>
+                <div class="fieldset">
+                    <label for="email" class="label">email</label>
+                    <input id="email" type="text" class="input">
+                </div>
+                <div class="fieldset">
+                    <label for="message" class="label">mensaje</label>
+                    <textarea id="message" class="input-message" cols="30" rows="10"></textarea>
+                </div>
+                <button class="btn">Enviar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="brand">
+            <img class="brand-img" src="images/logo.png" alt="logo">
+            <small>® 2022 RAS</small>
+        </div>
+        <div class="social-media">
+            <div class="instagram">
+                <img class="instagram-img" src="images/instagram.png" alt="instagram">
+                <a class="instram-link">instagram</a>
+            </div>
+            <div class="linkedin">
+                <img class="linkedin-img" src="images/linkedin.png" alt="linkedin">
+                <a class="linkedin-link">Linkedin</a>
+            </div>
+            <div class="github">
+                <img class="github-img" src="images/github.png" alt="github">
+                <a class="github-link">Github</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
